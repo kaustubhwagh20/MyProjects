@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">CONNECT-X</string>
+    <string name="welcome">WELCOME TO CONNECT-X</string>
+    <string name="login">LOGIN</string>
+    <string name="hint_username"> ENTER USERNAME</string>
+    <string name="hint_pass"> ENTER PASSWORD(MINIMUN 5 DIGIT)</string>
+    <string name="forgot_password">forgot password??</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="SIGN_UP_HERE" tools:ignore="StringEscaping">DO NOT HAVE ACCOUNT SIGN UP HERE</string>
+    <string name="welcome_new_user">WELCOME NEW USER</string>
+    <string name="reset">RESET</string>
+    <string name="submit">SUBMIT</string>
+    <string name="enter_you_name"> ENTER YOU NAME</string>
+    <string name="DOB"> ENTER YOUR DATE OF BIRTH(DD/MM/YYYY)</string>
+    <string name="CON_PASS"> CONFIRM PASSWORD</string>
+    <string name="security_Q"> CHOOSE SECURITY QUESTION?</string>
+    <string name="security_ANS"> SECURITY ANSWER</string>
+    <string name="bluetooth">PLEASE CONNECT THE DEVICE</string>
+    <string name="log_out">LOG OUT</string>
+    <string name="ICON">BLUETOOTH</string>
+    <string name="turn_on">TURN ON</string>
+    <string name="turn_off">TURN OFF</string>
+    <string name="scan_for_devices">SCAN FOR DEVICES</string>
+    <string name="available_devices">AVAILABLE DEVICES</string>
+    <string name="pair">PAIRED DEVICES</string>
+    <string name="next">NEXT</string>
+    <string name="now_drive_your_car">NOW DRIVE YOUR CAR</string>
+    <string name="visibility">VISIBILITY</string>
+    <string name="back">BACK</string>
+    <string name="fornt">fornt</string>
+    <string name="left">left</string>
+    <string name="right">right</string>
+    <string name="brake">brake</string>
+    <string name="light">light</string>
+    <string name="logo">logo</string>
+    <string name="get_paied_devices">get paied devices</string>
+    <string name="todo">TODO</string>
+    <string name="connect_to_module">connect to module</string>
+
+</resources>
