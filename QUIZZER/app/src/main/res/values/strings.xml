@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">QUIZZER</string>
+    <string name="log_in">Log In</string>
+    <string name="log">Log</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="email_or_user_name">Email or User Name</string>
+    <string name="password">Password</string>
+    <string name="sing_up">Sign Up</string>
+    <string name="or">OR</string>
+    <string name="quizzer">QUIZZER</string>
+    <string name="welcome_stu">welcome student</string>
+    <string name="todo">TODO</string>
+    <string name="attempt_your_quiz">attempt your quiz</string>
+    <string name="view_result">view result</string>
+    <string name="get_links">get links</string>
+    <string name="welcome_admin">welcome admin</string>
+    <string name="view_user_logins">view user logins</string>
+    <string name="create_teacher_login">create teacher login</string>
+    <string name="manage_quizes">manage quizes</string>
+    <string name="welcome_teacher">welcome teacher</string>
+    <string name="create_quiz">create quiz</string>
+    <string name="exit">Exit</string>
+    <string name="try_again">try again</string>
+    <string name="next">NEXT</string>
+    <string name="share_your_results">share your results</string>
+    <string name="entet_number_of_qustions_to_set">entet number of qustions to set</string>
+    <string name="set_test">set test</string>
+    <string name="enter_question">Enter question</string>
+    <string name="option_1">option 1</string>
+    <string name="option_2">option 2</string>
+    <string name="option3">option3</string>
+    <string name="option4">option4</string>
+    <string name="answer">answer</string>
+</resources>
