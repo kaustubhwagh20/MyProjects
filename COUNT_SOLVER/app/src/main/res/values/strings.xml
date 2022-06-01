@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">COUNT_SOLVER</string>
+    <string name="sum_rule">sum rule</string>
+    <string name="product_rule">product rule</string>
+    <string name="todo">TODO</string>
+    <string name="inclusion_exclusion">inclusion exclusion</string>
+    <string name="pigeon_hole">pigeon-hole</string>
+    <string name="permutation">permutation</string>
+    <string name="combination">combination</string>
+    <string name="enter_value">ENTER VALUE</string>
+    <string name="enter_entity">enter entity</string>
+    <string name="load">load</string>
+    <string name="enter_number_of_entites">enter number of entites</string>
+    <string name="calculate">calculate</string>
+    <string name="result">Result</string>
+    <string name="enter_n">ENTER N</string>
+    <string name="enter_r">ENTER R</string>
+    <string name="submit">SUBMIT</string>
+</resources>

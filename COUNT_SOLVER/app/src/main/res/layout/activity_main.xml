@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.gridlayout.widget.GridLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginEnd="20dp"
+                    app:alignmentMode="alignMargins"
+                    app:columnCount="2"
+                    app:columnOrderPreserved="false"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:rowCount="2">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/sum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="12dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="9dp"
+                        app:layout_columnWeight="1"
+                        app:layout_rowWeight="1">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingTop="14dp"
+                            android:paddingBottom="14dp">
+
+                            <ImageView
+                                android:id="@+id/img"
+                                android:layout_width="100dp"
+                                android:layout_height="140dp"
+                                android:layout_centerInParent="true"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="@string/todo"
+                                app:srcCompat="@drawable/img_1" />
+
+                            <TextView
+                                android:id="@+id/textView2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="50dp"
+                                android:layout_marginTop="160dp"
+                                android:text="@string/sum_rule"
+                                android:textColor="#4C0202"
+                                android:textStyle="bold" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/product"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="12dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="9dp"
+                        app:layout_columnWeight="1"
+                        app:layout_rowWeight="1">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingTop="14dp"
+                            android:paddingBottom="14dp">
+
+                            <ImageView
+                                android:id="@+id/imageView9"
+                                android:layout_width="100dp"
+                                android:layout_height="140dp"
+                                android:layout_centerInParent="true"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="@string/todo"
+                                app:srcCompat="@drawable/img_1" />
+
+                            <TextView
+                                android:id="@+id/textView3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="50dp"
+                                android:layout_marginTop="160dp"
+                                android:text="@string/product_rule"
+                                android:textColor="#4C0202"
+                                android:textStyle="bold" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/inclusion"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="12dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="9dp"
+                        app:layout_columnWeight="1"
+                        app:layout_rowWeight="1">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingTop="14dp"
+                            android:paddingBottom="14dp">
+
+                            <ImageView
+                                android:id="@+id/imageView8"
+                                android:layout_width="100dp"
+                                android:layout_height="140dp"
+                                android:layout_centerInParent="true"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="@string/todo"
+                                app:srcCompat="@drawable/img_1" />
+
+                            <TextView
+                                android:id="@+id/textView4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="50dp"
+                                android:layout_marginTop="160dp"
+                                android:text="@string/inclusion_exclusion"
+                                android:textColor="#4C0202"
+                                android:textStyle="bold" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/permutation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="12dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="9dp"
+                        app:layout_columnWeight="1"
+                        app:layout_rowWeight="1">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingTop="14dp"
+                            android:paddingBottom="14dp">
+
+                            <ImageView
+                                android:id="@+id/imageView14"
+                                android:layout_width="100dp"
+                                android:layout_height="140dp"
+                                android:layout_centerInParent="true"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="@string/todo"
+                                app:srcCompat="@drawable/img_1" />
+
+                            <TextView
+                                android:id="@+id/textView6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="50dp"
+                                android:layout_marginTop="160dp"
+                                android:text="@string/permutation"
+                                android:textColor="#4C0202"
+                                android:textStyle="bold" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/combination"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="12dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="9dp"
+                        app:layout_columnWeight="1"
+                        app:layout_rowWeight="1">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingTop="14dp"
+                            android:paddingBottom="14dp">
+
+                            <ImageView
+                                android:id="@+id/imageView13"
+                                android:layout_width="100dp"
+                                android:layout_height="140dp"
+                                android:layout_centerInParent="true"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="@string/todo"
+                                app:srcCompat="@drawable/img_1" />
+
+                            <TextView
+                                android:id="@+id/textView7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="50dp"
+                                android:layout_marginTop="160dp"
+                                android:text="@string/combination"
+                                android:textColor="#4C0202"
+                                android:textStyle="bold" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+                </androidx.gridlayout.widget.GridLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
