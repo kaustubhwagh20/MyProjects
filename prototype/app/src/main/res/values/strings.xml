@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">prototype</string>
+    <string name="what_is_2_2">what is 2*2</string>
+    <string name="submit">submit</string>
+</resources>
